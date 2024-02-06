@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    //for google fonts we are using 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Protest+Revolution&display=swap" rel="stylesheet">
+    //using cloudflare to add the facebook , instagram and twitter icons
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="icon" href="favicon.ico">
+    <title>Prasadi Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      
+    <header class="header">
+        <a href="#" class="prasadi">Prasadi Academy</a>
+
+        <nav class="nav">
+            <a href="https://www.facebook.com/prasadiacademynepal/" class="icon facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/prasadiacademynepal/" class="icon instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon twitter"><i class="fab fa-twitter"></i></a>
+           
+        </nav>
+    </header>
+    
+    //we have been using cloudflare to add social icons  now let us make a 
+    div glass icon
+
+    <div class="glassdiv">
+        <div class="text-container">
+            <h4>Unlock your Potential with,</h4>
+            <span>Prasadi Academy.</span>
+            <p class="introprasadi">
+                As the Head of the Academy, I have the pleasure to assure all the prospective students that you will find this place conducive and productive for your academic pursuit. We focus on imparting quality education and availing of all necessary opportunities to our students for gaining excellence in their respective subjects.
+            </p>
+          <button>Apply Now</button>
+          <img src="chief1-removebg-preview.png">
+        </div>
+    </div>
+    //now we are going to add few things about our academy 
+
+    //for this we will be creating 3 different divs but we have to add it in a glass div again
+    because it wont show properly in main div 
+
+   
+//here is 1st column     
+
+<div class="glassdiv1">
+    <div class="about"><i class="fas fa-users"></i></div>
+    <p>
+        Since 1997, Prasadi Academy has stood out in Nepal's +2 education landscape. It promotes critical thinking and moral sensitivity, preparing students for the global stage amidst rapid advancements in science and technology.
+    </p>
+    
+</div>
+
+//here is second column
+
+
+<div class="glassdiv2">
+   <div class="purpose"><i class="fas fa-bullseye"></i></div>
+   <p>
+    1.We offer quality education to aspiring students, fostering academic excellence.<br>
+    2.Participatory approach ensures effective, efficient instruction, empowering academic goal achievement.
+    
+</div>
+
+//here is third column
+
+<div class="glassdiv3">
+    <div class="teaching"><i class="fas fa-book"></i></div>
+    <p>
+        Active learning includes projects, discussions, assignments, and homework. It fosters independence, time management, and real-life exposure, enriching the educational experience for students.
+    </p>
+    
+</div>
+
+//yup our main agendas section is done so lets make 
+
+REASON to choose prasadi academy
+
+<div class="reasonstochooseprasadi">
+    <p>Top Reasons to choose Prasadi.</p>
+
+</div>
+
+//now achievements 
+
+<div class="achievements">
+    <div class="happyprasadian">
+        <i class="far fa-smile"></i> <i class="far fa-thumbs-up"></i>
+    </div>
+    <p>Awarded Best +2 of Nepal</p>
+       <p>Reputated and excellent history in +2 education.</p>
+       <p>Qualtiy of managaement.</p>
+       <p>Prasadi Academy is a unique academic institution dedicated to providing a healthy environment with student- friendly atmosphere. Our mission is to nurture students’ hidden talents and bring them to fruition through constant guidance and supervision. </p>
+   
+   
+</div>
+<img src="awards1.jpg" class="awards1">
+
+//now testimonials
+
+<div class="alumuni">
+    <p>Testimonials</p>
+
+</div>
+
+//testimonial 1
+<div class="alumuni1">
+   
+    <p>
+        Prasadi Academy gave me a lot of good experiences. I salute the institution for what it did to me. I recommend the institution to anyone who wants
+        quality education and good culture.</p><br>
+        <h2 class="reecha">Reecha RJL Rana, Nepal Army</h2>
+</div>
+//testimonial 2
+<div class="alumuni2">
+    
+    <p>
+        Just working hard is not enough to taste the flavor of success, you need a better place like Prasadi Academy which has incredibly labourous teachers and staff and extraordinary leadership.
+        
+    </p>
+    <h2 class="nitesh">Dr. Nitesh Silwal
+        IOM, Maharajgunj</h2>
+    
+</div>
+
+//testimonial 3
+<div class="alumuni3">
+
+    <p>
+        I learnt a lot about myself in Prasadi. I would not be what I am today without my presence in Prasadi Academy. Proud to be a Prasadian.
+    </p>
+    <h2 class="priti">
+        Priti Sitoula
+        Miss Nepal 2003 
+
+    </h2>
+</div>
+<img src="testi.jpg" class="testi1">
+<img src="testi1.jpg" class="testi2">
+<img src="testi2.jpg" class="testi3">
+
+//testimonails all done now only contact form and location is left
+
+
+
+<div class="contact">
+    <p>Contact Us</p>
+
+</div>
+
+//finally lets create a form iframe the location and a footer
+
+<div class="form">
+    <form action="/submit-form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    
+</div>
+
+<div class="iframe">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.5223307488686!2d85.31333077458073!3d27.67024672712842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19cd96d91c51%3A0x27f0ee467bd144fc!2sPrasadi%20Academy!5e0!3m2!1sen!2snp!4v1707229090378!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<footer>
+ <p>
+    © 2024:
+    <a class="text-warning" href="https://github.com/sudritg" target="_blank">Sudrit/Ghimrire</a>
+ </p>
+</footer>
+
+
+  
+
+<!-- Scripts -->
+
+<!-- Jquery For Smooth Scrolling-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Scripts -->
+
+ <!-- Custom Scripts -->
+ <script src="custom.js"></script>
+
+
+   
+
+
+
+   
+    
+
+
+</body>
+
+</html>

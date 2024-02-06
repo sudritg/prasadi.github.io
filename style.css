@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  
+
+  
+body {
+    min-height: 100vh;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    position: fixed; 
+    z-index: 1000;  
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
+    transition: .5s;
+}
+
+.header:hover::before {
+    left: 100%;
+}
+
+.prasadi {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight:600;
+    cursor: default;
+    font-family: 'Protest Revolution', sans-serif;
+    color: blue;
+}
+
+.nav a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    position: relative;
+    left: 400px;
+    margin-left: 35px;
+    transition: .3s;
+    font-family: 'Lobster Two', sans-serif;
+
+}
+
+.nav .facebook:hover .fab {
+    color: #3b5998; /* Facebook color */
+  }
+.nav .instagram:hover .fab {
+    color: #bc2a8d; /* Instagram color */
+  }
+
+.nav .twitter:hover .fab {
+    color: #1da1f2; /* Twitter color */
+  }  
+
+
+
+  .glassdiv{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 23px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: absolute;
+    top: 100px;
+    height: 500px;
+    width: 1350px;
+    margin-left: 10px;
+    
+   
+}
+.glassdiv h4{
+  display: flex;
+  justify-content: right;
+  margin: 100px;
+  font-size: 35px;
+}
+.glassdiv span{
+ 
+  margin: 100px;
+  position: absolute;
+  bottom: 210px;
+  right: 200px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: yellow;
+}
+
+.glassdiv p{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 186px;
+}
+button{
+  position: absolute;
+  top: 360px;
+  right: 120px;
+  width: 400px;
+  border-radius: 10px;
+  height: 40px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, .1);
+  color: Black;
+  border: 1px white solid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+button:hover{
+  background-color: white;
+  cursor: pointer;
+}
+img{
+  border-radius: 10%;
+  position: absolute;
+  right:670px;
+  top: 20px;
+  height: 450px;
+  width: 550px;
+  border: white 1px;
+  object-fit: cover;
+  
+}
+
+* {
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.glassdiv1{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 23px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 680px;
+  height: 300px;
+  width: 370px;
+  margin-left: 90px;
+  cursor: pointer;
+ 
+}
+
+.glassdiv2{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 23px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 680px;
+  height: 300px;
+  width: 370px;
+  margin-left: 500px;
+  background-color: green;
+  cursor: pointer;
+ 
+}
+
+
+.glassdiv3{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 23px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 680px;
+  height: 300px;
+  width: 370px;
+  margin-left: 910px;
+  cursor: pointer;
+ 
+}
+.glassdiv1 p{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 186px;
+  position: absolute;
+  top: 100px;
+  cursor: pointer;
+  color: white;
+  
+}
+.about
+   {
+    font-size: 78px;
+    color: grey;
+    position: absolute;
+    left: 130px;
+}
+.purpose{
+  font-size: 78px;
+  color: white;
+  position: absolute;
+  left: 130px;
+
+}
+.glassdiv2 p{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 300px;
+  position: absolute;
+  top: 100px;
+  cursor: pointer;
+  color: white;
+  cursor: pointer;
+  
+}
+.teaching{
+  font-size: 78px;
+  color: grey;
+  position: absolute;
+  left: 150px;
+}
+.glassdiv3 p{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 300px;
+  position: absolute;
+  top: 100px;
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+  
+}
+.glassdiv1:hover {
+  transform: scale(1.21); /* Increase scale on hover */
+  transition: transform 0.3s ease;
+  background-color: orange;
+}
+
+.glassdiv2:hover {
+  transform: scale(1.21); 
+  transition: transform 0.3s ease;
+}
+
+.glassdiv3:hover {
+  transform: scale(1.21); 
+  transition: transform 0.3s ease;
+  background-color: orange;
+}
+.reasonstochooseprasadi{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 1100px;
+  height: 150px;
+  width: 1350px;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+.reasonstochooseprasadi p{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-family: 'Protest Riot', sans-serif;
+  margin-top: 50px;
+  color: white;
+  margin-left: 10px;
+
+}
+.achievements{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 23px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 1300px;
+  left: 140px;
+  height: 450px;
+  width: 500px;
+  margin-left: 10px;
+  position: absolute;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  cursor: pointer;
+
+}
+
+
+.awards1{
+  position: absolute;
+  left: 650px;
+  top: 1300px;
+  height: 450px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.happyprasadian{
+  font-size: 78px;
+  color: yellow;
+  position: absolute;
+  left: 150px;
+}
+.achievements p{
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  top: 120px;
+  margin-left: 20px;
+  color: whitesmoke;
+}
+
+.alumuni{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 1900px;
+  height: 150px;
+  width: 1350px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.alumuni p{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-family: 'Protest Riot', sans-serif;
+  margin-top: 55px;
+  color: white;
+  margin-left: 10px;
+}
+.alumuni1{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 23px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 2150px;
+  height: 500px;
+  width: 300px;
+  margin-left: 180px;
+  cursor: pointer;
+
+}
+.alumuni3{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 23px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 2150px;
+  height: 500px;
+  width: 300px;
+  margin-left: 880px;
+  cursor: pointer;
+ 
+}
+.alumuni2{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 23px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 2150px;
+  height: 500px;
+  width: 300px;
+  margin-left: 530px;
+  cursor: pointer;
+}
+.testi1{
+  position: absolute;
+  top: 1800px;
+  height: 180px;
+  width: 180px;
+  left: 240px;
+  top: 2200px;
+  border-radius: 40%;
+ 
+}
+.alumuni1 p{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 186px;
+  position: absolute;
+  top: 225px;
+  cursor: pointer;
+  color: white;
+}
+.reecha{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 186px;
+  position: absolute;
+  top: 400px;
+  cursor: pointer;
+  color: white;
+}
+.alumuni1:hover  {
+  background-color: orange;
+  transform: scale(1.1); /* Increase scale on hover */
+  transition: transform 0.3s ease;
+}
+
+.alumuni2 p{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 186px;
+  position: absolute;
+  top: 225px;
+  cursor: pointer;
+  color: white;
+}
+.nitesh{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 186px;
+  position: absolute;
+  top: 400px;
+  cursor: pointer;
+  color: white;
+}
+.alumuni2:hover  {
+  background-color: orange;
+  transform: scale(1.1); /* Increase scale on hover */
+  transition: transform 0.3s ease;
+}
+.testi2{
+  position: absolute;
+  top: 1800px;
+  height: 180px;
+  width: 180px;
+  left: 590px;
+  top: 2200px;
+  border-radius: 40%;
+  transition: transform 0.3s ease
+}
+.alumuni3 p{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 186px;
+  position: absolute;
+  top: 225px;
+  cursor: pointer;
+  color: white;
+}
+.priti{
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  position: absolute;
+  right: 10px;
+  top: 186px;
+  position: absolute;
+  top: 400px;
+  cursor: pointer;
+  color: white;
+}
+.alumuni3:hover  {
+  background-color: orange;
+  transform: scale(1.1); 
+  transition: transform 0.3s ease;
+}
+.testi3{
+  position: absolute;
+  top: 1800px;
+  height: 180px;
+  width: 180px;
+  left: 945px;
+  top: 2200px;
+  border-radius: 40%;
+  transition: transform 0.3s ease
+}
+
+.contact{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  position: absolute;
+  top: 2700px;
+  height: 150px;
+  width: 1350px;
+  margin-left: 10px;
+  cursor: pointer;
+
+
+}
+
+.contact p{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-family: 'Protest Riot', sans-serif;
+  margin-top: 55px;
+  color: white;
+  margin-left: 10px;
+}
+
+.form{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border:1px  rgba(255, 255, 255, 0.18);
+  
+  position: absolute;
+  top: 2900px;
+  height: 500px;
+  width: 400px;
+  margin-left: 10px;
+  cursor: pointer;
+  position: absolute;
+  left: 120px;
+
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+ 
+}
+label {
+  display: block;
+  font-weight: bold;
+  backdrop-filter: none;
+opacity: 1;
+  
+  
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+
+}
+
+textarea {
+  height: 50px;
+
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+iframe{
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border:1px  rgba(255, 255, 255, 0.18);
+    position: absolute;
+    top: 2900px;
+    height: 500px;
+    width: 600px;
+    margin-left: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 650px;
+    opacity: 0.4;
+}
+
+iframe:hover{
+  transform: scale(1.2); 
+  transition: transform 0.3s ease;
+  opacity: 1;
+
+}
+
+footer{
+  
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border:1px  rgba(255, 255, 255, 0.18);
+  position: absolute;
+  top: 3450px;
+  height: 130px;
+  width: 1400px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+footer p {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Protest Riot', sans-serif;
+  margin-top: 55px;
+  color: white;
+  
+}
+footer p a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Protest Riot', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common styles for all screen sizes */
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    position: fixed; 
+    z-index: 1000;  
+}
+
